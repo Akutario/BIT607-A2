@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0" />
+        <title>Snazzy Paws</title>
+        <link rel="stylesheet" href="Styles3.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1394b3ce76.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"><i class="fa-solid fa-paw" style="color: #dbae7b;"></i>Snazzy Paws</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links"> Home </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="tech.html" class="navbar__links"> Services </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="gallery.html" class="navbar__links"> Gallery </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="booking.html" class="navbar__links"> Booking </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="About.html" class="navbar__links"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="booking">
+            <h2>Book an Appointment</h2>
+            <form class="booking-form" action="#" method="POST">
+                <label for="owner-name">Owner's Name:</label>
+                <input type="text" id="owner-name" name="owner_name" placeholder="Enter your name" required>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                <label for="dog-name">Dog's Name:</label>
+                <input type="text" id="dog-name" name="dog_name" placeholder="Enter your dog's name" required>
+        
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" placeholder="Enter the breed" required>
+        
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter the age in years" min="0" required>
+        
+                <label for="services">Select Services:</label>
+                <div class="checkbox-group">
+                    <div>
+                        <input type="checkbox" id="teeth_cleaning" name="services[]" value="teeth_cleaning">
+                        <label for="teeth_cleaning">Teeth Cleaning</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fur_whitening" name="services[]" value="fur_whitening">
+                        <label for="fur_whitening">Fur Whitening</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fur_dyeing" name="services[]" value="fur_dyeing">
+                        <label for="fur_dyeing">Fur Dyeing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="puppy_intros" name="services[]" value="puppy_intros">
+                        <label for="puppy_intros">Puppy Intros</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="flea_treatment" name="services[]" value="flea_treatment">
+                        <label for="flea_treatment">Flea Treatment</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ear_clean" name="services[]" value="ear_clean">
+                        <label for="ear_clean">Ear Clean</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fur_cut" name="services[]" value="fur_cut">
+                        <label for="fur_cut">A Fur Cut</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pupicure" name="services[]" value="pupicure">
+                        <label for="pupicure">Pupicure</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="puppy_bath" name="services[]" value="puppy_bath">
+                        <label for="puppy_bath">Puppy Bath</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="full_combo" name="services[]" value="full_combo">
+                        <label for="full_combo">Full Combo</label>
+                    </div>
+                </div>
+        
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </section>
+        
+        
+    
+        <!-- Footer Section-->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2> About Us</h2>
+                        <a href="About.html">Find out more!</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2> Other</h2>
+                        <a href="/">Specials</a>
+                        <a href="/">Manage account</a>
+                        <a href="/">More services</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2> Support</h2>
+                        <a href="/">Contact us at</a>
+                        <a href="/">0800 Not a real number</a>
+                        <a href="/">OR at</a>
+                        <a href="/">NotaRealEmail@gmail.com</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2> Social Media</h2>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                        <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fa-solid fa-paw" style="color: #ffe3c3;"></i>Snazzy Paws</a>
+                    </div>
+                    <p class="website__rights">© Snazzy Paws 2025. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icons--link" target=" _blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="/" class="social__icons--link" target=" _blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="social__icons--link" target=" _blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="social__icons--link" target=" _blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <script src="app.js" ></script>
+    </body>
+    </html>
